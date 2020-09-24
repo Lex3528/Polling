@@ -4,4 +4,4 @@ python manage.py migrate
 python manage.py collectstatic --noinput
 python manage.py create_groups
 
-/usr/local/bin/gunicorn conf.wsgi --reload --timeout 3000 -b 0.0.0.0:8000 -w 4
+/usr/local/bin/gunicorn apps_conf.wsgi --reload --timeout 3000 -b 0.0.0.0:8000 -w 4
