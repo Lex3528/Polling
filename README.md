@@ -22,10 +22,10 @@
 
 Развертка
 
-git clone https://github.com/Lex3528/Polling.git
-sudo docker-compose build
-sudo docker-compose run --rm web python manage.py createsuperuser
-sudo docker-compose up (-d for daemon-docker)
+git clone https://github.com/Lex3528/Polling.git \n
+sudo docker-compose build \n
+sudo docker-compose run --rm web python manage.py createsuperuser \n
+sudo docker-compose up (-d for daemon-docker) \n
 
 Авторизация:
 [POST] api/v1/obtain_token/ 
