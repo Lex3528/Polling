@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27f09bea-1f82-4390-89bb-0b8c8a08323c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/interviews/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/interviews/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/users/management/signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/management/signals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps_conf/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps_conf/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps_conf/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps_conf/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps_conf/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps_conf/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose/django/django_start" beforeDir="false" afterPath="$PROJECT_DIR$/compose/django/django_start" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +28,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/apps/users" />
   </component>
   <component name="RecentsManager">
@@ -58,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600876739303</updated>
       <workItem from="1600876746781" duration="2898000" />
-      <workItem from="1600961012907" duration="6654000" />
+      <workItem from="1600961012907" duration="7280000" />
     </task>
     <servers />
   </component>
