@@ -22,12 +22,18 @@
 
 Развертка
 
-git clone https://github.com/Lex3528/Polling.git \n
-sudo docker-compose build \n
-sudo docker-compose run --rm web python manage.py createsuperuser \n
-sudo docker-compose up (-d for daemon-docker) \n
+```
+git clone https://github.com/Lex3528/Polling.git 
+
+sudo docker-compose build
+
+sudo docker-compose run --rm web python manage.py createsuperuser 
+
+sudo docker-compose up (-d for daemon-docker) 
+```
 
 Авторизация:
+
 [POST] api/v1/obtain_token/ 
 data: {
   "username": "",
@@ -36,22 +42,36 @@ data: {
 Вернет токен. Этот токен потом используем в header. Пример Authorization Token oasifih1h12h41h98huabfbasubf12
 
 Урлы:
+
 admin/ - Django админка. Заходим сюда под логин паролем суперюзера которого создавали
+
 interviews/ - список всех опросов
+
 interviews/<int:pk>/ - детали одного опроса
+
 questions/ - список всех вопросов
+
 questions/<int:pk>/ - детали одного вопроса
+
 questions/result/ - список всех ответов-результатов на вопрос
+
 questions/result/<int:pk>/ - детали одного результата
 
 Отдельно для каждого урла не вижу смысла описывать какие данные куда слать, можно по ним перейти в браузере и стандартная верстка DRF подскажет что куда. В дальнейшем добавится Swagger по необходимости
 
-ВНИМАНИЕ! Если не подтянулась верстка DRF или в Джанго админке кривая верстка и стили необходимо для сервиса ввести команду docker-compose run --rm web python manage.py collectstatic
+__ВНИМАНИЕ!__
 
-Следующуая итерация проекта:
+Если не подтянулась верстка DRF или в Джанго админке кривая верстка и стили необходимо для сервиса ввести команду docker-compose run --rm web python manage.py collectstatic
+
+##Следующуая итерация проекта:
 1. Добавить Swagger
+
 2. Добавить регистрацию.
+
 3. Сменить схему получения токена. Удалять токен после отзыва токена. 
+
 4. Дописать юнит-тесты.
+
 5. Опционально. Добавить поле ответ для объекта Question
+
 6. Опционально. Добавить автоматическую сверху ответа пользователя с правильным ответом на вопрос.
