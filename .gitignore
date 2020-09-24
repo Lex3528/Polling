@@ -132,6 +132,7 @@ dmypy.json
 
 ### VisualStudioCode ###
 .vscode/*
+media/
 
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
